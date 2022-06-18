@@ -21,6 +21,8 @@
         font-size: 13.5px;
         border: none;
         border-radius: 3px;
+        font-family: Poppins;
+        font-weight: 600;
     }
     .table1 input{
         background-color: hsl(248, 32%, 49%);
@@ -42,6 +44,8 @@
     .table2 input{
         margin: 0;
         padding: 10px 70px;
+        font-family: Poppins;
+        font-weight: 500;
     }
     tfoot, .table1 input{
         font-size: 70%;
@@ -57,6 +61,8 @@
     p{
         color: aliceblue;
         padding-top: 20px;
+        font-family: Poppins;
+        font-weight: 400;
     }
     .two{
         padding-left: 20px;
