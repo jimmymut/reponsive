@@ -1,6 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100%;
+  /* width: 100%; */
+}
+
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+  --Blue: hsl(248, 32%, 49%);
+}
+
+body {
+  font-size: 16px;
+  background: var(--Red) url(./images/bg-intro-desktop.png);
+  font-family: "Poppins";
+  font-weight: 400;
+  color: white;
+  max-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 15%;
+}
+
+.container > div {
+  flex: 1;
+}
+
+form {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.two {
+  /* padding: 25px 40px; */
+  align-items: center;
+}
+
+.two p {
+  background-color: var(--Blue);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px 30px;
+}
+form input {
+  width: 90%;
+  margin: 5px 20px;
+  padding: 10px 30px;
+}
+
+form small {
+  color: var(--Grayish-Blue);
+  font-size: 11px;
+  margin: 0px 30px;
+  font-weight: 400;
+}
+
+a {
+  color: var(--Red);
+  font-size: 11px;
+}
+button {
+  background-color: var(--Green);
+  border: 1px solid var(--Green);
+  border-radius: 3px;
+  color: aliceblue;
+  width: 90%;
+  margin: 5px 20px;
+  padding: 10px 30px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 300%;
+  padding-bottom: 20px;
 }
