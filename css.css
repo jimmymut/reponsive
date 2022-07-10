@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* width: 100%; */
+  max-width: 1440px;
 }
 
 :root {
@@ -83,4 +83,36 @@ h1 {
   font-weight: 700;
   font-size: 300%;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .one h1,
+  .one p {
+    text-align: center;
+  }
+
+  form {
+    margin-bottom: 40px;
+  }
+
+  .one h1 {
+    font-size: 150%;
+  }
+
+  .one p {
+    margin-bottom: 40px;
+  }
+
+  button {
+    font-size: 60%;
+  }
+
+  form small {
+    font-size: 10px;
+    align-items: center;
+  }
 }
